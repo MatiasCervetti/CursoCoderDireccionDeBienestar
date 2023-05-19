@@ -18,6 +18,7 @@
     width: 100%;
     position: sticky;
     top: 0;
+    z-index: 5;
 }
 
 nav {
@@ -65,6 +66,10 @@ body {
 
 main {
     background-color: white;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .video {
@@ -259,17 +264,21 @@ main {
 
 /* Propiedades de la imagen del tercer articulo (Probable carrousel) */
 
-.imgVet {
-    height: 80%;
+.width-block {
     width: 100%;
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    display: block;
 }
 
-.imgVeterans {
-    border-radius: 10px;
-    width: 100%;
+.medidas-carousel {
+    display: grid;
+    grid-template-columns: 0.2fr 5fr 0.2fr;
+    grid-template-rows: 0.2fr 10fr 0.2fr;
+
+}
+
+.carousel {
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 
@@ -305,26 +314,60 @@ main {
 
 
 
-
-
-
-
-
-
-
-
-
-/* Propiedades de todos los FOOTER */
 
 footer {
     background: #333333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 15vh;
     width: 100%;
+    margin-top: 5px;
+    justify-items: center;
+    color: #D3D4D9;
 }
+
+.h4Container div:nth-child(1) {
+    grid-column: 1/2;
+    grid-row:1/2;
+}
+
+.h4Container div:nth-child(2) {
+    grid-column: 2/3;
+    grid-row:1/2;
+}
+
+.h4Container div:nth-child(3) {
+    grid-column: 3/4;
+    grid-row:1/2;
+}
+
+.h4div {
+    display: flex;
+
+}
+
+.p-margin{
+    align-self: center;
+}
+
+p {
+    margin: 0;
+}
+
+.copy {
+    grid-column: 1/4;
+    background-color: #525758;
+    width: 100%;
+    justify-self:center;
+}
+
+.copy p {
+    text-align: center;
+}
+/* Propiedades de todos los FOOTER */
+
+/* 
 
 footer a {
     text-decoration: none;
@@ -362,6 +405,13 @@ footer .photos li {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+.section-mod {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .h1-2 {
@@ -381,6 +431,7 @@ footer .photos li {
 
 .image-center{
     display: flex;
+    justify-content: center;
     margin-top: 10px;
     height: 100%;
     width: 100%;
@@ -390,28 +441,31 @@ footer .photos li {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-left: 28%;
+
 }
 
 .divMalvinas {
     margin-top: 20px;
     font-size: 1.5rem;
-    width: 80%;
+    width: 100%;
 }
 
 .parrafoMalvinas {
-    margin-left: 29%;
+    text-align: center;
 }
 
 .parrafoMalvinas2 {
     display:flex;
     justify-content: center;
-    margin-left: 23%;
+    text-align: center;
+
 }
 
 .parrafoMalvinas3 {
-    margin-left: 25.5%;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 
