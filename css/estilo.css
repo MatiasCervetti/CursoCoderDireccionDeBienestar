@@ -49,6 +49,7 @@ nav {
 .nav-item .nav-link {
     margin: 0 10px;
     transition: all 300ms ease;
+    font-size: 1.2rem;
 }
 
 .nav-item .nav-link:hover {
@@ -71,7 +72,7 @@ main {
 }
 
 /* Propiedades del H1 (invisible) */
-h1 {
+.h1-1 {
     text-align: center;
     text-decoration: underline;
     text-decoration-thickness: 4px;
@@ -90,6 +91,7 @@ h1 {
     color: black;
     text-shadow: 2px 2px #41BBD9;
     text-decoration: underline;
+    font-size: 3rem;
 }
 
 .logotipo {
@@ -203,10 +205,11 @@ h1 {
 .theTable {
     border: 1px solid black;
     border-collapse: collapse;
-    width: 100%;
+    width: 90%;
     height: 300px;
     text-align: center;
     margin-top: 20px;
+    margin-left: 120px;
 }
 
 .theTable th {
@@ -237,11 +240,11 @@ h1 {
 .h51 {
     display: flex;
     justify-content: space-around;
-    font-size: larger;
     text-align: center;
     background-color: #41BBD9;
     color: white;
     text-transform: uppercase;
+    font-size: 1.3rem;
 }
 
 .h61 {
@@ -251,6 +254,7 @@ h1 {
     color: #333333;
     text-shadow: 2px 3px #41BBD9;
     text-decoration: underline;
+    font-size: 1.7rem;
 }
 
 /* Propiedades de la imagen del tercer articulo (Probable carrousel) */
@@ -313,57 +317,36 @@ h1 {
 /* Propiedades de todos los FOOTER */
 
 footer {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    height: 20vh;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-}
-
-.h4Container {
+    background: #333333;
     display: flex;
     justify-content: center;
-    gap: 19rem;
     align-items: center;
-    width: 80%;
-    padding-bottom: 30px;
-    font-weight: 27px;
-}
-
-.h4div {
-    display: flex;
-    gap: 8px;
-    margin-top: 30px;
-}
-
-.parra-container {
-    display: flex;
-    justify-content: flex-start;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    padding-bottom: 30px;
-    font-weight: 27px;
-}
-
-.p-margin {
-    margin-right: 70px;
-}
-
-.p-margin2 {
-    margin-right: 50px;
-}
-
-.copy {
-    background-color: #333333;
-    width: 100%;
+    padding: 10px;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+    color: #D3D4D9;
+    padding: 2px;
+}
+
+  /* Iconos del footer */
+footer .photos ul {
+    list-style: none;
+    margin: 0;
+}
+footer .photos a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer .photos li {
+    padding: 1.3px;
 }
 
 
@@ -372,14 +355,64 @@ footer {
 
 
 
+/* VETERANOS */
 
+.background-image {
+    background-image: url(https://www.argentina.gob.ar/sites/default/files/2022/03/portadas_facebook-19.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.h1-2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    font-size: 75px;
+    padding: auto;
+    color: white;
+    text-shadow: 4px 3px black;
+}
 
+.back-image-center {
+    align-items: center;
+    vertical-align: middle;
+}
 
+.image-center{
+    display: flex;
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+}
 
+.imagenMalvinas {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 28%;
+}
 
+.divMalvinas {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    width: 80%;
+}
 
+.parrafoMalvinas {
+    margin-left: 29%;
+}
 
+.parrafoMalvinas2 {
+    display:flex;
+    justify-content: center;
+    margin-left: 23%;
+}
+
+.parrafoMalvinas3 {
+    margin-left: 25.5%;
+    margin-bottom: 20px;
+}
 
 
 
