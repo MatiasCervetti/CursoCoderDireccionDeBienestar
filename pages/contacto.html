@@ -50,63 +50,44 @@
     </header>
 
     <main>
-        <h1>Contacto</h1>
-        </section>
-        <h2>DIRECCIÓN</h2>
-        <article>
+        <h1 class="h1-3">Contacto</h1>
+        <section class="section-contact">
             <div>
-                <h3>Av. Santa Fe 4815 Piso 2, (1425) CABA</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.057138185485!2d-58.43057792540681!3d-34.577420756107955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb56cd50e3237%3A0xc77b028333e43253!2sDirecci%C3%B3n%20de%20Bienestar%20del%20Ej%C3%A9rcito%20Argentino!5e0!3m2!1ses!2sar!4v1682013737014!5m2!1ses!2sar"
+                    width="720" height="590" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </article>
-        </section>
-        <section>
-            <h2>TELÉFONO</h2>
-            <article>
-                <div>
-                    <h3>(011) 5657-3478</h3>
-                </div>
-            </article>
-        </section>
-        <section>
-            <h2>HORARIO DE ATENCIÓN</h2>
-            <article>
-                <div>
-                    <p>Lunes a Viernes de 8:00 a 14:00 hs.</p>
-                </div>
-                <div><iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.057138185485!2d-58.43057792540681!3d-34.577420756107955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb56cd50e3237%3A0xc77b028333e43253!2sDirecci%C3%B3n%20de%20Bienestar%20del%20Ej%C3%A9rcito%20Argentino!5e0!3m2!1ses!2sar!4v1682013737014!5m2!1ses!2sar"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-            </article>
-        </section>
-        <section>
-            <h3>¿Te interesaría inscribirte?</h3>
             <div>
-                <form>
-                    <div>Sí</div>
-                    <input type="radio" name="ins" id="ins" value="Si">
-                    <div>No</div>
-                    <input type="radio" name="ins" id="ins" value="No">
-                </form>
-            </div>
-        </section>
-        <section>
-            <h3>¡Dejanos tus datos!</h3>
-            <article>
-                <form>
-                    <label for="name">Nombre y Apellido:</label>
-                    <input type="text" name="name" id="name" required>
-                    <br>
-                    <label for="mail">Email:</label>
-                    <input type="email" name="mail" id="mail" required>
-                    <br>
-                    <label for="fact">Datos que gustes agregar:</label>
-                    <textarea name="fact" id="fact" cols="30" rows="10"></textarea>
-                    <br>
-                    <input type="submit" value="ENVIAR">
-                    <input type="reset" value="RESET">
-                </form>
-            </article>
+                <h3 class="h2-4">¿Te interesaría inscribirte?</h3>
+                <div>
+                    <form class="formulario">
+                        <div class="div-contact">
+                            <div class="div2-contact">
+                                <p>Sí</p>
+                                <input type="radio" name="ins" id="ins" value="Si">
+                            </div>
+                            <div class="div2-contact">
+                                <p>No</p>
+                                <input type="radio" name="ins" id="ins" value="No">
+                            </div>
+                        </div>
+                        <label for="name">Nombre y Apellido:</label> <br>
+                        <input type="text" name="name" id="name" required class="field">
+                        <br>
+                        <label for="mail">Email:</label> <br>
+                        <input type="email" name="mail" id="mail" required class="field">
+                        <br>
+                        <label for="fact">Datos que gustes agregar:</label> <br>
+                        <textarea name="fact" id="fact" cols="30" rows="10" class="field"></textarea>
+                        <br>
+                        <div class="button-div">
+                            <input type="submit" value="ENVIAR" class="button-div-input">
+                            <input type="reset" value="RESET" class="button-div-input">
+                        </div>
+                    </form>
+                    </article>
+                </div>
         </section>
     </main>
 
