@@ -277,6 +277,8 @@ main {
     grid-row: 2/3;
 }
 
+
+
 /* Propiedades del Footer */
 
 footer {
@@ -330,19 +332,6 @@ p {
     text-align: center;
 }
 
-footer .photos ul {
-    list-style: none;
-    margin: 0;
-}
-
-footer .photos a {
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-footer .photos li {
-    padding: 1.3px;
-}
 
 /* VETERANOS */
 
@@ -529,6 +518,7 @@ footer .photos li {
     width: 100%;
     height: 100%;
 }
+
 .article-grid-mod {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -538,7 +528,7 @@ footer .photos li {
     text-align: center;
 }
 
-.article-grid-mod div:nth-child(1){
+.article-grid-mod div:nth-child(1) {
     grid-column: 1/2;
     grid-row: 1/2;
 }
@@ -564,7 +554,9 @@ footer .photos li {
     grid-row: 3/4;
 }
 
-
+.width-iframe {
+    width: 80%;
+}
 
 /* CONTACTO */
 
@@ -630,8 +622,126 @@ footer .photos li {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 1200px) {
-    .prueba {
-        font-size: 60px;
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+    .width-iframe {
+        width: 95%;
     }
+}
+
+@media (max-width: 768px) {
+    .article-grid-mod {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5,1fr);
+    }
+
+    .article-grid-mod div:nth-child(1) {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .article-grid-mod div:nth-child(2) {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .article-grid-mod div:nth-child(3) {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .article-grid-mod div:nth-child(4) {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        margin-bottom: 40px;
+    }
+
+    .article-grid-mod div:nth-child(5) {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+/* FOOTER */
+
+    .h4div {
+        height: 24px;
+    }
+
+    .h4-footer {
+        font-size: 19px;
+    }
+
+    .p-margin {
+        font-size: 14px;
+    }
+
+    .copy {
+        font-size: 16px;
+    }
+
+}
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .p-canciones1 {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        height: 35vh;
+    }
+    
+    
+    footer div:nth-child(1) {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        align-self: flex-start;
+        justify-self: center;
+    }
+    
+    footer div:nth-child(2) {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        align-self: flex-start;
+        justify-self: center;
+    }
+    
+    footer div:nth-child(3) {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        align-self: flex-start;
+        justify-self: center;
+    }
+    
+    footer p:nth-child(4) {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        align-self: flex-end;
+        justify-self: center;
+    }
+
+    footer p:nth-child(5) {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        align-self: flex-end;
+        justify-self: center;
+    }
+
+    footer p:nth-child(6) {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        align-self: flex-end;
+        justify-self: center;
+    }
+
 }
