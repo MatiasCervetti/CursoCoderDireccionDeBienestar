@@ -572,8 +572,8 @@ footer .photos li {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15%;
-    margin: 60px;
+    gap: 8%;
+    margin: 30px;
 }
 
 /* Class para el formulario */
