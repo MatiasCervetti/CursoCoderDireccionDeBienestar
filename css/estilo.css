@@ -58,6 +58,16 @@ nav {
     padding: 5px;
 }
 
+.navbar-nav {
+    background-color: #333333;
+
+}
+
+.nav-link:hover {
+    color: #5190d4;
+    padding: 5px;
+}
+
 /* Modificadores del INDEX */
 
 body {
@@ -199,8 +209,12 @@ main {
 
 .heading4 {
     font-size: 22px;
-    margin-top: 10px;
+    margin-top: 30px;
     text-align: center;
+}
+
+.table-Padding {
+    padding: 20px;
 }
 
 .theTable {
@@ -404,6 +418,7 @@ p {
 }
 
 .parrafoMalvinas3 {
+    margin-top: 25px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
