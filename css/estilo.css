@@ -583,6 +583,12 @@ p {
     margin: 30px;
 }
 
+.main-contact {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Class para el formulario */
 
 .formulario {
