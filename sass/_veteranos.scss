@@ -1,0 +1,65 @@
+.background-image {
+	background-image: url(https://www.argentina.gob.ar/sites/default/files/2022/03/portadas_facebook-19.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 350px;
+}
+.mainVet {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.section-mod {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.h1-2 {
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-thickness: 4px;
+	font-size: 75px;
+	padding: auto;
+	color: white;
+	text-shadow: 4px 3px black;
+}
+.back-image-center {
+	align-items: center;
+	vertical-align: middle;
+    width: 60%;
+}
+.image-center {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	height: 100%;
+	width: 100%;
+}
+.imagenMalvinas {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	width: 60%;
+}
+.divMalvinas {
+	margin-top: 20px;
+	font-size: 1.5rem;
+	width: 100%;
+}
+.parrafoMalvinas {
+	text-align: center;
+}
+.parrafoMalvinas2 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.parrafoMalvinas3 {
+	margin-top: 25px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}

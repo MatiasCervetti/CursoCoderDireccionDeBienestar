@@ -1,0 +1,49 @@
+.header-all {
+	background-color: #333333;
+	height: 100px;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 5;
+}
+nav {
+	height: 100px;
+}
+.logo {
+	width: 100%;
+	height: 100%;
+}
+.image-logo {
+	height: 69px;
+}
+.container-fluid {
+	.navbar-brand {
+		color: #fff;
+	}
+	.nav-link {
+		color: #fff;
+	}
+}
+.navbar-toggler-icon {
+	filter: invert(0%);
+}
+.nav-item {
+	.nav-link {
+		margin: 0 10px;
+		transition: all 300ms ease;
+		font-size: 1.2rem;
+		&:hover {
+			color: #5190d4;
+			padding: 5px;
+		}
+	}
+}
+.navbar-nav {
+	background-color: #333333;
+}
+.nav-link {
+	&:hover {
+		color: #5190d4;
+		padding: 5px;
+	}
+}
