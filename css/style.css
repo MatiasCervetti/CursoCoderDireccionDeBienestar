@@ -305,6 +305,13 @@ main {
   grid-row: 2/3;
 }
 
+.tituloH6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .pContainer3 {
   width: 50vw;
   border-right: 3px solid #41BBD9;
@@ -595,6 +602,12 @@ main {
     flex-direction: column-reverse;
     gap: 30px;
   }
+  .article22 {
+    margin-right: 15px;
+  }
+  .parrafoContainer {
+    margin-left: 10px;
+  }
 }
 @media only screen and (max-width: 992px) {
   .width-iframe {
@@ -606,6 +619,20 @@ main {
   }
   .h1-2 {
     font-size: 50px;
+  }
+  .prueba {
+    font-size: 40px;
+  }
+  .section-container {
+    flex-direction: column-reverse;
+    margin-top: 40px;
+  }
+  .article1 {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .pContainer {
+    width: 92vh;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -662,6 +689,17 @@ main {
   .iframe-alto {
     height: 400px;
   }
+  .pContainer {
+    width: 80vh;
+  }
+}
+@media only screen and (max-width: 668px) {
+  .coronelMayor {
+    display: none;
+  }
+  .pContainer {
+    width: 60vh;
+  }
 }
 @media only screen and (max-width: 576px) {
   .p-canciones1 {
@@ -712,6 +750,9 @@ main {
   .mapa-ancho {
     width: 90%;
   }
+  .prueba {
+    font-size: 30px;
+  }
 }
 @media only screen and (max-width: 500px) {
   .article1 {
@@ -725,6 +766,13 @@ main {
   .parrafoMalvinas2 {
     font-size: 19px;
     padding: 10px;
+  }
+  .p-container {
+    font-size: 16px;
+  }
+  .pContainer {
+    font-size: 16px;
+    width: 45vh;
   }
 }
 @media only screen and (max-width: 400px) {
