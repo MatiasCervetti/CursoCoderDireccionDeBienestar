@@ -24,11 +24,11 @@
 @media only screen and (max-width: 1520px) {
     .img-RYP {
         margin-right: 30px;
-        height: 41vh;
+        height: 51vh;
     }
     .img-RyPp {
         margin-right: 30px;
-        height: 58vh;
+        height: 68vh;
     }
 }
 
@@ -52,7 +52,7 @@
         flex-direction: column;
     }
     .img-RyPp {
-        height: 41vh ;
+        height: 51vh ;
     }
     .div-img-RYP {
         justify-content: center;
@@ -167,6 +167,12 @@
     }
     .pContainer {
         width: 60vh;
+    }
+    .img-RYP {
+        height: 45vh;
+    }
+    .img-RyPp {
+        height: 45vh;
     }
 }
 
