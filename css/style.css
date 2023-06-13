@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 .header-all {
   background-color: #333333;
   height: 100px;
@@ -25,7 +24,6 @@ nav {
 .container-fluid .navbar-brand {
   color: #fff;
 }
-
 .container-fluid .nav-link {
   color: #fff;
 }
@@ -39,7 +37,6 @@ nav {
   transition: all 300ms ease;
   font-size: 1.2rem;
 }
-
 .nav-item .nav-link:hover {
   color: #5190d4;
   padding: 5px;
@@ -70,12 +67,10 @@ footer {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-
 .h4Container div:nth-child(2) {
   grid-column: 2/3;
   grid-row: 1/2;
 }
-
 .h4Container div:nth-child(3) {
   grid-column: 3/4;
   grid-row: 1/2;
@@ -99,7 +94,6 @@ p {
   width: 100%;
   justify-self: center;
 }
-
 .copy p {
   text-align: center;
 }
@@ -255,22 +249,18 @@ main {
   text-align: center;
   margin-top: 20px;
 }
-
 .theTable th {
   border: 1px solid black;
   padding: 10px;
 }
-
 .theTable td {
   border: 1px solid black;
   padding: 10px;
 }
-
 .theTable td:hover {
   background: #313638;
   color: #D3D4D9;
 }
-
 .theTable tr:hover {
   background: #D3D4D9;
 }
@@ -510,28 +500,23 @@ main {
   padding: 10px;
   text-align: center;
 }
-
 .article-grid-mod div:nth-child(1) {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-
 .article-grid-mod div:nth-child(2) {
   grid-column: 3/4;
   grid-row: 1/2;
 }
-
 .article-grid-mod div:nth-child(3) {
   grid-column: 2/3;
   grid-row: 2/3;
 }
-
 .article-grid-mod div:nth-child(4) {
   grid-column: 1/2;
   grid-row: 3/4;
   margin-bottom: 30px;
 }
-
 .article-grid-mod div:nth-child(5) {
   grid-column: 3/4;
   grid-row: 3/4;
@@ -594,9 +579,7 @@ main {
   gap: 10px;
 }
 
-.button-div,
-.button-div-input-reset,
-.button-div-input {
+.button-div, .button-div-input-reset, .button-div-input {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -623,81 +606,65 @@ main {
 @media only screen and (max-width: 1520px) {
   .img-RYP {
     margin-right: 30px;
-    height: 41vh;
+    height: 51vh;
   }
-
   .img-RyPp {
     margin-right: 30px;
-    height: 58vh;
+    height: 68vh;
   }
 }
-
 @media only screen and (max-width: 1250px) {
   .section-contact {
     flex-direction: column-reverse;
     gap: 30px;
   }
-
   .article22 {
     margin-right: 15px;
   }
-
   .parrafoContainer {
     margin-left: 10px;
   }
-
   .article4 {
     display: flex;
     flex-direction: column;
   }
-
   .sectionRYP {
     display: flex;
     flex-direction: column;
   }
-
   .img-RyPp {
-    height: 41vh;
+    height: 51vh;
   }
-
   .div-img-RYP {
     justify-content: center;
     display: flex;
   }
 }
-
 @media only screen and (max-width: 992px) {
   .width-iframe {
     width: 95%;
   }
-
   .background-image {
     display: flex;
     flex-wrap: wrap;
   }
-
   .h1-2 {
     font-size: 50px;
   }
-
   .prueba {
     font-size: 40px;
   }
-
   .section-container {
     flex-direction: column-reverse;
     margin-top: 40px;
   }
-
   .article1 {
     flex-direction: column;
     gap: 15px;
   }
-
   .pContainer {
     width: 92vh;
   }
-
   .h2-2 {
     display: flex;
     justify-content: center;
@@ -705,228 +672,189 @@ main {
     margin-bottom: 50px;
     margin-top: 50px;
   }
-
   .img-RYP {
     margin-right: 0px;
   }
 }
-
 @media only screen and (max-width: 768px) {
   .article-grid-mod {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
   }
-
   .article-grid-mod div:nth-child(1) {
     grid-column: 1/2;
     grid-row: 1/2;
   }
-
   .article-grid-mod div:nth-child(2) {
     grid-column: 1/2;
     grid-row: 2/3;
   }
-
   .article-grid-mod div:nth-child(3) {
     grid-column: 1/2;
     grid-row: 3/4;
   }
-
   .article-grid-mod div:nth-child(4) {
     grid-column: 1/2;
     grid-row: 4/5;
     margin-bottom: 40px;
   }
-
   .article-grid-mod div:nth-child(5) {
     grid-column: 1/2;
     grid-row: 5/6;
   }
-
   .h4div {
     height: 24px;
   }
-
   .h4-footer {
     font-size: 19px;
   }
-
   .p-margin {
     font-size: 14px;
   }
-
   .copy {
     font-size: 16px;
   }
-
   .mapa-iframe {
     width: 100%;
   }
-
   .mapa-ancho {
     width: 80%;
   }
-
   .article1 {
     gap: 30px;
     padding: 10px;
   }
-
   .parrafoMalvinas3 {
     padding: 10px;
   }
-
   .iframe-alto {
     height: 400px;
   }
-
   .pContainer {
     width: 80vh;
   }
-
   .pContainer3 {
     font-size: 18px;
   }
 }
-
 @media only screen and (max-width: 668px) {
   .coronelMayor {
     display: none;
   }
-
   .pContainer {
     width: 60vh;
   }
+  .img-RYP {
+    height: 45vh;
+  }
+  .img-RyPp {
+    height: 45vh;
+  }
 }
-
 @media only screen and (max-width: 576px) {
   .p-canciones1 {
     width: 90%;
     font-size: 20px;
   }
-
   footer {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     height: 35vh;
   }
-
   footer div:nth-child(1) {
     grid-column: 1/2;
     grid-row: 1/2;
     align-self: flex-start;
     justify-self: center;
   }
-
   footer div:nth-child(2) {
     grid-column: 1/2;
     grid-row: 2/3;
     align-self: flex-start;
     justify-self: center;
   }
-
   footer div:nth-child(3) {
     grid-column: 1/2;
     grid-row: 3/4;
     align-self: flex-start;
     justify-self: center;
   }
-
   footer p:nth-child(4) {
     grid-column: 1/2;
     grid-row: 1/2;
     align-self: center;
     justify-self: center;
   }
-
   footer p:nth-child(5) {
     grid-column: 1/2;
     grid-row: 2/3;
     align-self: center;
     justify-self: center;
   }
-
   footer p:nth-child(6) {
     grid-column: 1/2;
     grid-row: 3/4;
     align-self: center;
     justify-self: center;
   }
-
   .mapa-ancho {
     width: 90%;
   }
-
   .prueba {
     font-size: 30px;
   }
-
   .pContainer3 {
     font-size: 16px;
   }
-
   .ul-font {
     font-size: 16px;
   }
-
   .img-RYP {
     height: 28vh;
   }
-
   .img-RyPp {
     height: 28vh;
   }
 }
-
 @media only screen and (max-width: 500px) {
   .article1 {
     display: flex;
     flex-direction: column;
   }
-
   .parrafoMalvinas {
     font-size: 19px;
     padding: 10px;
   }
-
   .parrafoMalvinas2 {
     font-size: 19px;
     padding: 10px;
   }
-
   .p-container {
     font-size: 16px;
   }
-
   .pContainer {
     font-size: 16px;
     width: 45vh;
   }
-
   .img-RyPp {
     margin-right: 0px;
   }
-
   .h1-3 {
     font-size: 50px;
   }
 }
-
 @media only screen and (max-width: 400px) {
   .formulario {
     width: 300px;
   }
-
   .field {
     width: 280px;
   }
-
   .img-RYP {
-    height: 23vh;
+    height: 22vh;
   }
-
   .img-RyPp {
-    height: 23vh;
+    height: 22vh;
   }
 }
 
